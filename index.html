@@ -15,22 +15,18 @@
 
     <div class="project mdl-cell mdl-card mdl-shadow--4dp">
       <div class="mdl-cell mdl-cell--7-col">
-      <form id="addToDoForm">
-        <label for="newToDoText">New To-Do:</label>
-        <input type="text" id="newToDoText">
-        <button type="submit">Add To-Do!</button>
+      <form action = "#" id="addToDoForm">
+        <div class="mdl-textfield mdl-js-textfield">
+        <label class "mdl-textfield__label" for="newToDoText">New To-Do:</label>
+        <input class="mdl-textfield__input" type="text" id="newToDoText"></input>
+        </div>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" type="submit">New</button>
+
       </form>
       </div>
     </div>
     <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-      <form id="toDeleteItem">
-        <button type="Delete">Delete Item</button>
-
-      </form>
-    </div>
-
-    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-      <ul id="toDoList">
+      <ul class="demo-list-item mdl-list" id="toDoList">
       </ul>
     </div>
 

@@ -5,3 +5,11 @@ header {
  body {
    padding-bottom: 5rem;
  }
+ main {
+   max-width: 900px;
+   justify-content: center;
+ }
+.demo-list-item {
+  width: 300px;
+  padding: 3rem; 
+}
